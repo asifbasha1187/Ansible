@@ -5,7 +5,7 @@
   tasks:
     - name: print message
       ansible.builtin.package:
-        name:{{ item }}
+        name: "{{ item }}"
       loop:
       - nginx
       - mysql
