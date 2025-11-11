@@ -1,4 +1,4 @@
-- name: install/uninstall packages
+- name: install or uninstall packages
   hosts: local
   connection: local
   become: yes
